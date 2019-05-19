@@ -9,7 +9,7 @@ import React from "react"
 import PropTypes from "prop-types"
 import { StaticQuery, graphql } from "gatsby"
 //import TransitionLink from 'gatsby-plugin-transition-link'
-
+import Image from "../components/image"
 import Header from "./header"
 import "./layout.css"
 
@@ -51,6 +51,13 @@ const Layout = ({ children }) => (
             </footer> */}
             
           </div>
+          <div
+          style={{ 
+            maxWidth: `100px`, 
+            marginBottom: `1.45rem`, 
+            overflow: `visible`}}>
+          <Image />
+        </div>
           <div style={{position:`absolute`, bottom: 0}} className="inner-container">
             <Header menuLinks={data.site.siteMetadata.menuLinks} />
           </div>  
