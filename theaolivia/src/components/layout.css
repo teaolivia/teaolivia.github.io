@@ -855,6 +855,9 @@ pre tt:after {
 }
 
 @media (min-width: 900px) {
+  html {
+    margin: 100%;
+  }
   .sidebar {
     display: none;
   }
