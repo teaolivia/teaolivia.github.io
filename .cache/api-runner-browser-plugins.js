@@ -1,10 +1,19 @@
 module.exports = [{
-      plugin: require('/Users/theaolivia/projects/theaolivia/node_modules/gatsby-plugin-transition-link/gatsby-browser.js'),
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/theaolivia/projects/theaolivia/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-transition-link/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-typography/gatsby-browser.js'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
     },{
-      plugin: require('/Users/theaolivia/projects/theaolivia/gatsby-browser.js'),
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-offline/gatsby-browser.js'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-web-font-loader/gatsby-browser.js'),
+      options: {"plugins":[],"google":{"families":["Droid Sans","Droid Serif"]}},
+    },{
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/gatsby-browser.js'),
       options: {"plugins":[]},
     }]

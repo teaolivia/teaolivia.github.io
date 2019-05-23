@@ -1,15 +1,21 @@
 var plugins = [{
-      plugin: require('/Users/theaolivia/projects/theaolivia/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/theaolivia/projects/theaolivia/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
-      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"transparent","theme_color":"#663399","display":"minimal-ui","icon":"src/images/halloween-black-cat.png"},
-    },{
-      plugin: require('/Users/theaolivia/projects/theaolivia/node_modules/gatsby-plugin-transition-link/gatsby-ssr'),
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
       options: {"plugins":[]},
     },{
-      plugin: require('/Users/theaolivia/projects/theaolivia/node_modules/gatsby-plugin-typography/gatsby-ssr'),
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"gatsby-starter-default","short_name":"starter","start_url":"/","background_color":"#FB9985","theme_color":"#FB9985","display":"minimal-ui","icon":"src/images/halloween-black-cat.png"},
+    },{
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-transition-link/gatsby-ssr'),
+      options: {"plugins":[]},
+    },{
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-typography/gatsby-ssr'),
       options: {"plugins":[],"pathToConfigModule":"src/utils/typography"},
+    },{
+      plugin: require('/Users/theaolivia/projects/teaolivia.github.io/node_modules/gatsby-plugin-offline/gatsby-ssr'),
+      options: {"plugins":[]},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [
