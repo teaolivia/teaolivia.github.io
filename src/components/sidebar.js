@@ -15,7 +15,7 @@ const Sidebar = ({ siteTitle }) => (
         <ListLink activeStyle={{color: `#ffc98b`, fontFamily: `Montserrat,sans-serif`}} to="/">about</ListLink>
         <ListLink activeStyle={{color: `#ffc98b`, fontFamily: `Montserrat,sans-serif`}} to="/portfolio/">portfolio</ListLink>
         <ListLink activeStyle={{color: `#ffc98b`, fontFamily: `Montserrat,sans-serif`}} to="/contacts/">contacts</ListLink>
-        <a style={{ padding: `1em`, color: `#ffc98b`, fontFamily: `Source Sans Pro,sans-serif`, fontWeight: `600`}}href="https://bit.ly/2Q8smIb"><b>résumé.</b></a>
+        <a style={{ padding: `1em`, color: `#ffc98b`, fontFamily: `Source Sans Pro,sans-serif`, fontWeight: `600`}}href="https://bit.ly/2K2slVg"><b>résumé.</b></a>
     </Menu>
 )
 
