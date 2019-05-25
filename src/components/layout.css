@@ -832,6 +832,7 @@ pre tt:after {
     margin-top: 2rem;
     margin-left: 1.45rem;
     margin: 3em auto;
+    padding-top: 2rem;
     padding-left: 2rem;
     padding-right: 2rem;
   }
@@ -860,6 +861,13 @@ pre tt:after {
     display: none;
   }
 
+  .main-container {
+    margin-top: 2rem;
+    margin-left: 1.45rem;
+    margin: 3em auto;
+    padding-top: 2rem;
+    padding-left: 2rem;
+  }
   .outer-container {
     display: table;
     box-sizing: border-box;

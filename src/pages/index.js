@@ -7,7 +7,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <div className="layout">
-    <div id="page-wrap" >
+    <div style={{padding: `1em`,        
+              marginBottom: `1.45rem`,
+              marginLeft: `1.45rem`,
+              }} id="page-wrap" >
       <h1 style={{fontWeight: `bold`}}>Apa Kabar?</h1>
 
         <div 

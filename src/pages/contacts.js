@@ -10,7 +10,7 @@ const Contacts = (props) => (
     <div class="layout">
       <div id="page-wrap">
         <h1 style={{maxWidth: `100%`}}>Looking forward to hear from you!</h1>
-        <div class="outer-container" style={{ padding: `1.5em`, marginBottom: `1.5rem`}}>
+        <div class="outer-container" style={{ paddingLeft: `0`, padding: `1.5em`, marginBottom: `1.5rem`}}>
           <div class="inner-container">
             <a href="mailto:theaolivia.mail@gmail.com">
               <Img className="hub" fluid={props.data.mail_icon.childImageSharp.fluid}/>

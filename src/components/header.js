@@ -9,7 +9,9 @@ const Header = ({ menuLinks }) => (
       float:`right`,
       paddingTop: `0 1.45rem `
     }}>
-      <nav>
+      <nav style={{
+        marginTop: `1.45rem`
+      }}>
         <ul style={{ 
           display: 'flex', 
           flex: 2, 
