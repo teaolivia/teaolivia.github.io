@@ -46,11 +46,6 @@ const Contacts = (props) => (
               <Img className="hub" fluid={props.data.medium_icon.childImageSharp.fluid}/>
             </a>
           </div>
-          <div class="inner-container">
-            <a href="https://www.goodreads.com/theaolivia">
-              <Img className="hub" fluid={props.data.goodreads_icon.childImageSharp.fluid}/>
-            </a>
-          </div>
         </div>
       </div>
     </div>
@@ -96,10 +91,6 @@ export const query = graphql`
 
     twitter_icon: file(relativePath: { eq: "twitter-logo-silhouette.png" }) {
         ...fluidImage
-    }
-
-    goodreads_icon: file(relativePath: { eq: "goodreads-letter-logo.png" }) {
-      ...fluidImage
     }
   }
 `
