@@ -690,14 +690,15 @@ pre tt:before,
 pre tt:after {
   content: "";
 }
-@media only screen and (min-width: 300px) and (max-width: 900px) {
+@media only screen and (max-width: 900px) {
   html {
     font-size: 100%;
   }
+
   [class*="layout"] {
     margin-top: 2rem;
     margin-bottom: 1.45rem;
-    margin-left: 1.45rem;
+    margin-left: 2rem;
     padding-left: 2rem;
   }
 
@@ -835,13 +836,8 @@ pre tt:after {
     padding-right: 2rem;
   }
 
-  #page-wrap {
-    padding: 1em; 
-    margin-top: 1.45rem;
-    margin-bottom: 1.45rem; 
-    margin-left: 1.45rem;
-    padding-left: 2rem;
-    box-sizing: border-box;
+  #media-alignment-wide {
+    display: none;
   }
   /* .outer-container {
     display: table;
