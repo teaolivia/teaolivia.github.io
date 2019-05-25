@@ -62,7 +62,7 @@ export default Contacts
 export const fluidImage = graphql`
   fragment fluidImage on File {
     childImageSharp {
-      fluid(maxWidth: 100) {
+      fluid(maxWidth: 50) {
         ...GatsbyImageSharpFluid
       }
     }

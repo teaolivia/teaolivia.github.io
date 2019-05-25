@@ -42,7 +42,7 @@ const Layout = ({ children }) => (
             style={{
               display: `table-cell`,
               verticalAlign: `middle`,
-              margin: `3em auto`,
+              marginTop: `3rem`,
               marginLeft: `auto`,
               marginRight: `auto`,
               maxWidth: `100%`,
