@@ -718,9 +718,9 @@ pre tt:after {
   }
 
   /* Change color on hover */
-  .bm-item:hover {
+  /* .bm-item:hover {
     color: #ffc98b;
-  }
+  } */
 
   /* The rest copied directly from react-burger-menu docs */
 
@@ -751,14 +751,14 @@ pre tt:after {
 
   /* General sidebar styles */
   .bm-menu {
-    background: #373a47;
+    background: #7E5920;
     padding: 2.5em 1.5em 0;
     font-size: 1.15em;
   }
 
   /* Morph shape necessary with bubble or elastic */
   .bm-morph-shape {
-    fill: #373a47;
+    fill: #7E5920;
   }
 
   /* Wrapper for item list */
