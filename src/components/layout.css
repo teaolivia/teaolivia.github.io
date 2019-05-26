@@ -1,5 +1,6 @@
 /*
     COLOR PALETTE
+    teal: #373a47
     licorice: #1A090D
     icon logo: #58344E
     purple taupe: #4A314D
@@ -734,7 +735,7 @@ pre tt:after {
 
   /* Color/shape of burger icon bars */
   .bm-burger-bars {
-    background: #373a47;
+    background: #7E5920;
   }
 
   /* Position and sizing of clickable cross button */
