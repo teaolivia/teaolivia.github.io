@@ -27,7 +27,10 @@ const Portfolio = () => (
                 The RAFFLES Project (start 26th May 2019)
               </a>
             </dt> 
-            <dd>an English-Indonesian translator using Stanford CoreNLP and Prosa.ai Syntax API.<span style={{color: `#083D77`}}><b>Java. Python. React.js. Airflow. Spark. Kafka. <i>other infrastructure tools will be added alongside sprint.</i></b></span></dd>  
+            <dd>
+              an English-Indonesian translator using Stanford CoreNLP and Prosa.ai Syntax API.<span style={{color: `#083D77`}}><b>Java. Python. React.js. Airflow. Spark. Kafka. <i>other infrastructure tools will be added alongside sprint.</i></b></span>
+              You are more than welcome to visit <a style={{color: `#1C3A13`}} href="https://rafflestranslator.github.io"> our landing page!</a>
+              </dd>  
             
             <dt>
               <a style={{color: `#1A090D`, fontWeight: `600`}}  href="https://github.com/teaolivia/Pamitran">
