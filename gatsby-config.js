@@ -69,5 +69,20 @@ module.exports = {
         }
       }
     }
+    // {
+    //   resolve: 'gatsby-remark-video',
+    //   options: {
+    //     plugins: [
+    //       options: {
+    //         "gatsby-remark-responsive-iframe",
+    //         width: 100%,
+    //         height: 'auto',
+    //         preload: 'auto',
+    //         muted: true,
+    //         autoplay: true
+    //       }
+    //     ]
+    //   }
+    // }
   ],
 }

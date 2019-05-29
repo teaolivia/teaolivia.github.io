@@ -16,11 +16,25 @@ const Portfolio = () => (
         <div style={{ padding: `1em`}}>
           <dl>
             <dt>
+              <a style={{color: `#1A090D`, fontWeight: `600`}}  href="https://github.com/teaolivia/viralin">
+                viral.in (start 29th May 2019, expected finished 25th June 2019)
+              </a>
+            </dt> 
+            <dd>viral.in is an application to advertise products where there are promotors/referrals who are going to receive points which can be liquidified into their respective balance account. <span style={{color: `#083D77`}}><b> Python. Django. Vue.js. Docker. <i>other infrastructure tools will be added alongside sprint.</i></b></span></dd>  
+            
+            <dt>
+              <a style={{color: `#1A090D`, fontWeight: `600`}}  href="https://github.com/rafflestranslator">
+                The RAFFLES Project (start 26th May 2019)
+              </a>
+            </dt> 
+            <dd>an English-Indonesian translator using Stanford CoreNLP and Prosa.ai Syntax API.<span style={{color: `#083D77`}}><b>Java. Python. React.js. Airflow. Spark. Kafka. <i>other infrastructure tools will be added alongside sprint.</i></b></span></dd>  
+            
+            <dt>
               <a style={{color: `#1A090D`, fontWeight: `600`}}  href="https://github.com/teaolivia/Pamitran">
                 Pamitran Electric e-Shop (start 2018)
               </a>
             </dt> 
-            <dd>a web-based hometown-coverage mini e-commerce. <span style={{color: `#083D77`}}><b>Python. Google Cloud Functions. Django. React.js.</b></span></dd>  
+            <dd>a web-based hometown-coverage mini e-commerce. <span style={{color: `#083D77`}}><b>Python. Google Cloud Functions. Django. React.js. <i>other infrastructure tools will be added alongside sprint.</i></b></span></dd>  
 
             <dt>
               <a style={{color: `#1A090D`, fontWeight: `600`}}  href="https://github.com/keychera/AquaAesthetic">
