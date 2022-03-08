@@ -1,6 +1,6 @@
-.cache
+/theapisan/.cache
 .DS_Store
-/public
+/theapisan/public
 
 
 
