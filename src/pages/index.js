@@ -77,10 +77,11 @@ const IndexPage = () => {
             <span style={headingAccentStyles}>Data Engineer</span>
           </h1>
           <p style={{textAlign: `center`}}>I am a data/software engineer from Indonesia but currently based in Stockholm, Sweden. </p>
+          <p style={{textAlign: `center`}}>Currently I am working on <a style={{ color: `#487B94`, textDecoration: `none`}} href="https://unity.com/">Unity Technologies</a> big project, which is migrating petabytes of identity data hub from monolith to microservice architecture. </p>
           <p style={{textAlign: `center`}}>I strive to deliver the best end-to-end solutions for my stakeholders who are data analysts and data scientists that work for decision making engine by focusing on data quality, freshness, throughput and infrastructure with <a style={{ color: `#487B94`, textDecoration: `none`}} href="https://www.klarna.com">Klarna</a> since last 2 years. </p>
-          <p style={{textAlign: `center`}}>Before I worked on various backend and even frontend projects which build my software design fundamentals.</p>
+          <p style={{textAlign: `center`}}>Before I worked on various backend and even frontend projects which build my software design fundamentals for 6 years.</p>
           <p style={{textAlign: `center`}}>In my freetime I enjoy sauna, cooking, playing guitar, and adoring cute animals. </p>
-          <p style={{textAlign: `center`}}><a style={docLinkStyle} href="https://drive.google.com/file/d/15GqUoBTT_ei2atm5DjUJJGFra1n631_w/view">check out my latest résumé!</a></p>
+          <p style={{textAlign: `center`}}><a style={docLinkStyle} href="https://drive.google.com/file/d/1wZ6Db6fD-lj8Qz9mZhnBICoDixHrKUkF/view?usp=sharing">check out my latest résumé!</a></p>
           <div style={{ 
                         maxWidth: `250px`, 
                         margin: `auto`,
