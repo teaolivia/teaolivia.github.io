@@ -1,7 +1,5 @@
-/theapisan/.cache
-.DS_Store
-/theapisan/public
+node_modules/
+.cache/
+public
 
-
-
-/theapisan/.env
+.env
