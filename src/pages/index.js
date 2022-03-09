@@ -77,7 +77,7 @@ const IndexPage = () => {
             <span style={headingAccentStyles}>Data Engineer</span>
           </h1>
           <p style={{textAlign: `center`}}>I am a data/software engineer from Indonesia but currently based in Stockholm, Sweden. </p>
-          <p style={{textAlign: `center`}}>I strive to deliver best end-to-end solutions to my stakeholders who are data analysts and data scientists that work for decision making engine by focusing on data quality, freshness, throughput and infrastructure with <a style={{ color: `#487B94`, textDecoration: `none`}} href="https://www.klarna.com">Klarna</a> since last 2 years. </p>
+          <p style={{textAlign: `center`}}>I strive to deliver the best end-to-end solutions for my stakeholders who are data analysts and data scientists that work for decision making engine by focusing on data quality, freshness, throughput and infrastructure with <a style={{ color: `#487B94`, textDecoration: `none`}} href="https://www.klarna.com">Klarna</a> since last 2 years. </p>
           <p style={{textAlign: `center`}}>Before I worked on various backend and even frontend projects which build my software design fundamentals.</p>
           <p style={{textAlign: `center`}}>In my freetime, I enjoy sauna, cooking, playing guitar, and adoring cute animals. </p>
           <p style={{textAlign: `center`}}><a style={docLinkStyle} href="https://drive.google.com/file/d/15GqUoBTT_ei2atm5DjUJJGFra1n631_w/view">check out my latest résumé!</a></p>
