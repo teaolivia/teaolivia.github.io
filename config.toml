@@ -1,0 +1,71 @@
+## Basic Configuration
+
+baseurl = "https://teaolivia.github.io"
+builddrafts = false
+canonifyurls = false
+languageCode = "en-US"
+
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+author = "Thea Yusuf"
+title = "Thea Yusuf"
+
+theme = "hugo-goa"
+
+## Hugo Built-in Features
+disqusShortname = "theaolivia" # Comment out to disable Disqus.
+googleAnalytics = "XYZ"
+enableRobotsTXT = true
+
+## Site Settings
+[params]
+author = "Thea Olivia Yusuf"
+intro = "Software / Data Engineer"
+description = "Now @Unity. Previously @Klarna. I like pineapple pizza and that's okay."
+dateformat = "Jan 2, 2006"
+authorimage = "pp.png"
+favicon = "/icon.png"
+sample_pdf = "resume_latest.pdf"
+
+## Site Meta Settings
+[params.meta]
+favicon = true
+description = "Simple minimalist theme"
+keywords = "minimalist,blog,goa,hugo,developer"
+
+## Social Accounts
+[params.social]
+github = "teaolivia"
+instagram = "teapisan"
+linkedin = "theaolivia"
+twitter = "teapisan"
+stackoverflow = "theaolivia"
+goodreads = "theaolivia"
+email = "theaolivia.mail@gmail.com"
+
+## Extras
+[params.extra]
+poweredby = true
+highlightjs = true
+socialmarkup = true
+toc = true
+displayrssicon = true
+
+## Main Menu
+#[[menu.main]]
+#    name = "blog"
+#    weight = 100
+#    identifier = "blog"
+#    url = "/blog/"
+#[[menu.main]]
+#    name = "about"
+#    identifier = "about"
+#    weight = 200
+#    url = "/about/"
+[[menu.main]]
+    name = "latest resume"
+    identifier = "resume"
+    weight = 300
+    url = "/resume_latest.pdf"
