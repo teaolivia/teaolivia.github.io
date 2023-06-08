@@ -31,7 +31,6 @@ sample_pdf = "resume_latest.pdf"
 
 ## Site Meta Settings
 [params.meta]
-favicon = true
 description = "Simple minimalist theme"
 keywords = "minimalist,blog,goa,hugo,developer"
 
