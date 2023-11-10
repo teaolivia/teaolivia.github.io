@@ -1,6 +1,6 @@
 ## Basic Configuration
 
-baseurl = "https://teaolivia.github.io"
+baseurl = "https://teaolivia.github.io/"
 builddrafts = false
 canonifyurls = false
 languageCode = "en-US"
@@ -26,7 +26,6 @@ intro = "Software / Data Engineer"
 description = "Now @Unity. Previously @Klarna. I like pineapple pizza and that's okay."
 dateformat = "Jan 2, 2006"
 authorimage = "pp.png"
-favicon = "/icon.png"
 sample_pdf = "resume_latest.pdf"
 
 ## Site Meta Settings
